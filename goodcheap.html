@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="goodcheap.css">
+</head>
+
+<body>
+    <div class="banner" id="banner">
+        <img src="image/banner4.jpg" />
+    </div>
+    <br>
+    <div class="goodcheap" id="goodcheap">
+        <h3>Chào Mừng Đến Với Good Cheap</h3>
+        <h4>Xin Mời Nhập Thông Tin Sản Phẩm Cần Bán</h4>
+        <br>
+        <p>Địa Chỉ</p>
+        <input type="text" id="diachi" name="diachi">
+        <p>Email</p>
+        <input type="text" id="email" name="email">
+        <p>Giá Tiền</p>
+        <input type="number" id="giatien" name="giatien">
+        <p>Hình Ảnh</p>
+        <input type="text" id="hinhanh" name="hinhanh">
+        <p>Mô Tả</p>
+        <input type="text" id="mota" name="mota">
+        <p>Ngày</p>
+        <input type="date" id="ngay" name="ngay">
+        <p>Số Lượng</p>
+        <input type="number" id="soluong" name="soluong">
+        <p>Tên Sản Phẩm</p>
+        <input type="text" id="ten" name="ten">
+        <br>
+        <label for="type">Loại</label>
+        <select id="type" name="type">
+            <option value="Rau">Rau</option>
+            <option value="Củ">Củ</option>
+            <option value="Quả">Quả</option>
+            <option value="Đồ Hộp">Đồ Hộp</option>
+            <option value="Đồ Đông Lạnh">Đồ Đông Lạnh</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit" id="submit">Submit</button>
+        <button type="submit" id="cancel">Cancel</button>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="goodcheap.js"></script>
+</body>
+
+</html>

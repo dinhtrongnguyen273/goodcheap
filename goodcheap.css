@@ -1,0 +1,50 @@
+body {
+    background-color: gold;
+    font-family: sans-serif;
+}
+
+.banner {
+    background-color: gold;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.goodcheap {
+    width: 500px;
+    height: auto;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.goodcheap h3 {
+    display: inline-block;
+    color: gray;
+}
+
+.goodcheap h4 {
+    display: inline-block;
+    color: gray;
+}
+
+.goodcheap input {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.goodcheap button {
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+}
