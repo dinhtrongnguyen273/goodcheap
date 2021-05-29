@@ -18,22 +18,26 @@
         <h3>Chào Mừng Đến Với Good Cheap</h3>
         <h4>Xin Mời Nhập Thông Tin Sản Phẩm Cần Bán</h4>
         <br>
-        <p>Địa Chỉ</p>
-        <input type="text" id="diachi" name="diachi">
-        <p>Email</p>
-        <input type="text" id="email" name="email">
-        <p>Giá Tiền</p>
-        <input type="number" id="giatien" name="giatien">
-        <p>Hình Ảnh</p>
-        <input type="text" id="hinhanh" name="hinhanh">
-        <p>Mô Tả</p>
-        <input type="text" id="mota" name="mota">
-        <p>Ngày</p>
-        <input type="date" id="ngay" name="ngay">
+        <p>Tên Sản Phẩm</p>
+        <input type="string" id="ten" name="ten">
         <p>Số Lượng</p>
         <input type="number" id="soluong" name="soluong">
-        <p>Tên Sản Phẩm</p>
-        <input type="text" id="ten" name="ten">
+        <p>Giá Gốc</p>
+        <input type="number" id="giagoc" name="giagoc">
+        <p>Giá Tiền</p>
+        <input type="number" id="giatien" name="giatien">
+        <p>Mô Tả</p>
+        <input type="string" id="mota" name="mota">
+        <p>Ngày Sản Xuất</p>
+        <input type="string" id="ngay" name="ngay">
+        <p>Ngày Hết Hạn</p>
+        <input type="string" id="hansudung" name="hansudung">
+        <p>Hình Ảnh</p>
+        <input type="file" id="hinhanh" name="hinhanh">
+        <p>Địa Chỉ</p>
+        <input type="string" id="diachi" name="diachi">
+        <p>Email</p>
+        <input type="string" id="email" name="email">
         <br>
         <label for="type">Loại</label>
         <select id="type" name="type">
@@ -45,10 +49,11 @@
         </select>
         <br>
         <br>
-        <button type="submit" id="submit">Submit</button>
-        <button type="submit" id="cancel">Cancel</button>
+        <button type="submit" id="submit">Lưu</button>
+        <button type="submit" id="cancel">Thoát</button>
     </div>
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
     <script src="goodcheap.js"></script>
